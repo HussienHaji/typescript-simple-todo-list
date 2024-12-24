@@ -1,0 +1,17 @@
+{
+  "name": "simple-todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:live-server": "live-server",
+    "start:tsc": "tsc -w",
+    "start": "npm run start:tsc & npm run start:live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "typescript": "^5.7.2"
+  }
+}
