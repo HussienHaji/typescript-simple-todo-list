@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start:live-server": "live-server",
-    "start:tsc": "tsc -w",
-    "start": "npm run start:tsc & npm run start:live-server"
+    "start:tsc": "tsc -w"
   },
   "author": "",
   "license": "ISC",
